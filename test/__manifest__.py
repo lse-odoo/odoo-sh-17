@@ -7,7 +7,7 @@
     "license": "AGPL-3",
     'author': 'LSE',
     "external_dependencies": {
-        "python": ["py3o.template"],
+        "python": ["camelcase"],
     },
     'installable': True,
 }

@@ -1,4 +1,7 @@
-from py3o.template import Template
+import camelcase
 
-print(Template)
+c = camelcase.CamelCase()
 
+txt = "hello world"
+
+print(c.hump(txt))
